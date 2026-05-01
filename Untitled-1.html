@@ -1,0 +1,13 @@
+import react, {usestate} from "react";
+
+const Darklight = () => {
+    const [dark, setdark] = useState (false);
+    return {
+    <div classname="{dark ? "black" : "white"}>
+         <h1>{dark ? "White" : "Black"}</h1>
+        <button onClick={() => setDark(!dark)}> change</button>
+    </div>
+    };
+}
+export default Darklight;
+export default darklight;
